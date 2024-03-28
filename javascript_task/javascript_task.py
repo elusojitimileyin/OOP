@@ -18,4 +18,4 @@ def output_total_occurring_number(list_of_number):
 
 def output_total_occurring_number_short(list_of_number):
     max_count = max([list_of_number.count(number) for number in list_of_number])
-return max_count
+    return max_count
